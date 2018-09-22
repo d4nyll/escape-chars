@@ -1,0 +1,21 @@
+{
+  "name": "special-escape",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Daniel Li <dan@danyll.com>",
+  "license": "MIT",
+  "keywords": [
+    "escape",
+    "special",
+    "char",
+    "characters"
+  ],
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1"
+  },
+  "scripts": {
+    "test:coverage": "nyc --reporter=html --reporter=lcov --reporter=text npm test",
+    "test": "mocha index.test.js"
+  }
+}
